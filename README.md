@@ -85,3 +85,20 @@ cd fat-snake-3d
 open index.html          # macOS
 start index.html         # Windows
 xdg-open index.html      # Linux
+
+### 方法二：本地伺服器
+# 使用 Python
+python -m http.server 8080
+
+# 使用 Node.js (npx)
+npx serve .
+
+# 使用 PHP
+php -S localhost:8080
+
+
+### 方法三：GitHub Pages
+Fork 這個專案
+前往 Settings → Pages
+Source 選擇 main 分支
+幾分鐘後就能透過 https://你的帳號.github.io/fat-snake-3d/ 開始玩
