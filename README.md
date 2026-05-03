@@ -102,3 +102,15 @@ Fork 這個專案
 前往 Settings → Pages
 Source 選擇 main 分支
 幾分鐘後就能透過 https://你的帳號.github.io/fat-snake-3d/ 開始玩
+
+📁 專案結構
+fat-snake-3d/
+│
+├── index.html          # 🎮 遊戲主檔案（HTML + CSS + JS 全部內聯）
+├── README.md           # 📖 專案說明文件
+├── LICENSE             # 📜 MIT 授權條款
+└── screenshots/        # 📸 截圖資料夾（選填）
+    ├── gameplay.png
+    └── gameover.png
+
+
